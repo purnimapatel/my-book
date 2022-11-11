@@ -5,9 +5,9 @@ public class SumOfNumbers2
     {
         int x,y,sum;
         try (Scanner sc = new Scanner(System.in)) {
-            System.out.print("Enter the first Number:");
+            System.out.print("Enter the 1st Number:");
             x = sc.nextInt();
-            System.out.print("Enter the second Number:");
+            System.out.print("Enter the 2nd Number:");
             y = sc.nextInt();
         }
         sum = x+y;
